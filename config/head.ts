@@ -1,12 +1,12 @@
 import { NuxtOptionsHead } from "@nuxt/types/config/head"
 
 /* Define constants */
-const image = "https://eggsy.xyz/icon.png"
+const image = "/assets/images/rt-logox100.png"
 const description =
-  "Young JavaScript developer from Turkey, interested in languages, gaming, and programming, trying to improve his JavaScript skills!"
+  "PHP developer from Turkiye who is interested in languages, games and programming and trying to improve his PHP skills!"
 
 const Head: NuxtOptionsHead = {
-  title: "eggsy.xyz",
+  title: "ridvantopakkaya.com",
   meta: [
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -24,17 +24,17 @@ const Head: NuxtOptionsHead = {
     {
       hid: "twitter:site",
       name: "twitter:site",
-      content: "@eggsydev",
+      content: "@rdvntpkky",
     },
     {
       hid: "twitter:creator",
       name: "twitter:creator",
-      content: "@eggsydev",
+      content: "@rdvntpkky",
     },
     {
       hid: "twitter:title",
       name: "twitter:title",
-      content: "eggsy.xyz",
+      content: "ridvantopakkaya.com",
     },
     {
       hid: "twitter:description",
@@ -55,7 +55,7 @@ const Head: NuxtOptionsHead = {
     {
       hid: "og:site_name",
       name: "og:site_name",
-      content: "eggsy.xyz",
+      content: "ridvantopakkaya.com",
     },
     {
       hid: "og:description",
@@ -82,13 +82,13 @@ const Head: NuxtOptionsHead = {
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "https://eggsy.xyz/assets/icons/icon.ico",
+      href: "/assets/images/rt-logox100.png",
     },
     {
       rel: "search",
       type: "application/opensearchdescription+xml",
       title: "EGGSY's Blog",
-      href: "https://eggsy.xyz/opensearch.xml",
+      href: "/opensearch.xml",
     },
   ],
 }
