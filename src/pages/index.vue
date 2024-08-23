@@ -255,14 +255,14 @@ export default Vue.extend({
             >
               Hi, I am
               <span class="text-black/90 dark:text-white/90"
-                >Abdulbaki Dursun</span
+                >Rıdvan Topakkaya</span
               >
             </h1>
 
             <h1
               class="font-semibold text-center text-4xl md:(text-6xl text-left) text-black/90 leading-normal dark:text-white/90"
             >
-              Full-stack web developer
+              Backend web developer
             </h1>
           </div>
 
@@ -270,7 +270,7 @@ export default Vue.extend({
             class="flex items-center justify-center md:justify-start gap-x-3 gap-y-2 flex-wrap"
           >
             <Button
-              v-for="item in ['TypeScript', 'Vue.js', 'React.js']"
+              v-for="item in ['X', 'Github', 'Email']"
               :key="item"
               class="inline-block"
             >
@@ -279,7 +279,7 @@ export default Vue.extend({
 
             <Button
               v-tippy="{ content: 'More', placement: 'bottom' }"
-              @click.native="scrollToSection('#technologies')"
+              @click.native="scrollToSection('https://x.com/rdvntpkky')"
             >
               <IconEllipsis class="h-5 w-5" />
             </Button>
