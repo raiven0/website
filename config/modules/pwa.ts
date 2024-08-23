@@ -1,7 +1,7 @@
 export default {
   manifest: {
-    name: "eggsy.xyz",
-    short_name: "eggsy.xyz",
+    name: "ridvantopakkaya.com",
+    short_name: "ridvantopakkaya.com",
     theme_color: "#f56565",
     lang: "en",
   },
