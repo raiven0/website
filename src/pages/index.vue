@@ -34,98 +34,14 @@ export default Vue.extend({
         education: false,
       },
       repos: [] as Repository[],
-      experiences: {
+      links: {
         jobs: [
           {
             title: "Voco Inc.",
             url: "https://vocoapp.com",
             position: "Web Developer",
             date: "2023-2024",
-          },
-          {
-            title: "Google Developer Student Clubs",
-            url: "https://gdsc.community.dev/mus-alparslan-universitesi",
-            position: "Core Team Member",
-            date: "2022-2024",
-          },
-          {
-            title: "KUKA Theater Association",
-            url: "https://kukasahne.com",
-            position: "Web Developer & Social Media Manager",
-            date: "2022-2023",
-          },
-          {
-            title: "Discord Templates",
-            url: "https://discords.com/templates",
-            position: "Web Developer & Co-Founder",
-            date: "2020-2021",
-          },
-          {
-            title: "IZM Game Studios",
-            position: "Solution Partner",
-            date: "2020-2021",
-            isHidden: true,
-          },
-          {
-            title: "TruckersMP",
-            url: "https://truckersmp.com/user/1648033",
-            position: "Community Moderator & Translator",
-            date: "2020-2021",
-            isHidden: true,
-          },
-          {
-            title: "WA Web+ Extension",
-            url: "https://wawplus.com",
-            position: "Translator",
-            date: "2020-2021",
-            isHidden: true,
-          },
-          {
-            title: "Batakköylü Düğün Salonu",
-            url: "https://batakkoylu.netlify.app",
-            position: "Web Developer",
-            date: "2020-2020",
-            isHidden: true,
-          },
-          {
-            title: "EGGSY's Discord Bot",
-            url: "https://top.gg/bot/eggsy",
-            position: "Creator, Developer and Maintainer",
-            date: "2017-2019",
-          },
-          {
-            title: "Discord Bot List",
-            url: "https://top.gg/user/162969778699501569",
-            position: "Website Moderator",
-            date: "2017-2018",
-          },
-        ],
-        education: [
-          {
-            title: "Muş Alparslan University",
-            url: "http://alparslan.edu.tr/",
-            position: "English Language Teaching",
-            date: "2020-2024",
-          },
-          {
-            title: "Goce Delchev University",
-            url: "https://www.ugd.edu.mk/",
-            position: "Erasmus+ Student",
-            date: "2021-2022",
-          },
-          {
-            title: "Rotosis Robotics",
-            url: "https://www.rotosis.com/",
-            position: "Intern",
-            date: "2017-2018",
-            isHidden: true,
-          },
-          {
-            title: "Adil Karaağaç MTAL",
-            url: "https://akatl.meb.k12.tr/",
-            position: "Automation Systems",
-            date: "2014-2018",
-          },
+          }
         ],
       } as ExperienceObject,
       cards: {
@@ -135,12 +51,6 @@ export default Vue.extend({
             description:
               "Want to see and/or contribute to my code and public repositories?",
             href: "/me/repos",
-          },
-          {
-            title: "Songs",
-            description:
-              "Trust your taste? Compare your favourite songs and artists with mine!",
-            href: "/me/songs",
           },
           {
             title: "Contact",
@@ -161,18 +71,6 @@ export default Vue.extend({
             description:
               "My projects and contributions to the open-source community.",
             href: "/projects",
-          },
-          {
-            title: "Daily Songs",
-            description:
-              "Fresh, cool and great song recommendations from me each day!",
-            href: "/daily",
-          },
-          {
-            title: "Donate",
-            description:
-              "Want to support me and my projects so that I can create better stuff in the future?",
-            href: "/donate",
           },
         ],
       },
