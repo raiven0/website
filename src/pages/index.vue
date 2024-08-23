@@ -37,18 +37,18 @@ export default Vue.extend({
       experiences: {
         jobs: [
           {
-            title: "Voco Inc.",
-            url: "https://vocoapp.com",
-            position: "Web Developer",
-            date: "2023-2024",
+            title: "Github",
+            url: "http://github.com/raiven0",
+            position: "@raiven0",
+            date: "",
           },
         ],
         education: [
           {
-            title: "Muş Alparslan University",
-            url: "http://alparslan.edu.tr/",
-            position: "English Language Teaching",
-            date: "2020-2024",
+            title: "X",
+            url: "https://x.com/rdvntpkky",
+            position: "@rdvntpkky",
+            date: "",
           },
         ],
       } as ExperienceObject,
@@ -88,7 +88,7 @@ export default Vue.extend({
           items: [
             "PHP",
             "HTML5",
-            "CSS",
+            "Tailwind CSS",
           ],
         },
         {
@@ -119,7 +119,6 @@ export default Vue.extend({
             },
             {
               title: "Vercel",
-              iconPack: "IconBrand",
             },
           ],
         },
@@ -172,7 +171,7 @@ export default Vue.extend({
 
       <div class="rounded-full mx-auto mb-4 md:mb-0">
         <SmartImage
-          src="/assets/images/rt-logox100.png"
+          src="/assets/images/profile-rdvn.png"
           class="rounded-full h-50 w-50"
         />
       </div>
@@ -230,6 +229,7 @@ export default Vue.extend({
 
       <div>
         <div class="flex items-center gap-4 justify-between">
+          <Title></Title>
         </div>
 
         <div class="mt-4 grid gap-2">
