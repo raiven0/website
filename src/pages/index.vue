@@ -265,31 +265,12 @@ export default Vue.extend({
               Backend web developer
             </h1>
           </div>
-
-          <div
-            class="flex items-center justify-center md:justify-start gap-x-3 gap-y-2 flex-wrap"
-          >
-            <Button
-              v-for="item in ['X', 'Github', 'Email']"
-              :key="item"
-              class="inline-block"
-            >
-              <IconDev :brand="item" class="h-5 w-5" />
-            </Button>
-
-            <Button
-              v-tippy="{ content: 'More', placement: 'bottom' }"
-              @click.native="scrollToSection('https://x.com/rdvntpkky')"
-            >
-              <IconEllipsis class="h-5 w-5" />
-            </Button>
-          </div>
         </div>
       </div>
 
       <div class="rounded-full mx-auto mb-4 md:mb-0">
         <SmartImage
-          src="/assets/images/picture.png"
+          src="/assets/images/profile-rdvn.png"
           class="rounded-full h-50 w-50"
         />
       </div>
