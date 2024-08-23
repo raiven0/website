@@ -61,12 +61,6 @@ export default Vue.extend({
             href: "/me/repos",
           },
           {
-            title: "Songs",
-            description:
-              "Trust your taste? Compare your favourite songs and artists with mine!",
-            href: "/me/songs",
-          },
-          {
             title: "Contact",
             description:
               "Need help with anything? Want to get in touch? Send me a message!",
@@ -86,31 +80,15 @@ export default Vue.extend({
               "My projects and contributions to the open-source community.",
             href: "/projects",
           },
-          {
-            title: "Daily Songs",
-            description:
-              "Fresh, cool and great song recommendations from me each day!",
-            href: "/daily",
-          },
-          {
-            title: "Donate",
-            description:
-              "Want to support me and my projects so that I can create better stuff in the future?",
-            href: "/donate",
-          },
         ],
       },
       skills: [
         {
           title: "Development",
           items: [
-            "TypeScript",
-            "Vue.js",
-            "React.js",
+            "PHP",
             "HTML5",
-            "Tailwind CSS",
-            "Node.js",
-            "Sass",
+            "CSS",
           ],
         },
         {
@@ -119,10 +97,6 @@ export default Vue.extend({
             {
               title: "VS Code",
               iconPack: "IconBrand",
-            },
-            {
-              title: "Raycast",
-              image: "https://i.imgur.com/NBc0C4j.png",
             },
             {
               title: "Figma",
@@ -141,6 +115,10 @@ export default Vue.extend({
             },
             {
               title: "Netlify",
+              iconPack: "IconBrand",
+            },
+            {
+              title: "Vercel",
               iconPack: "IconBrand",
             },
           ],
