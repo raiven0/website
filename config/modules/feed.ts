@@ -1,5 +1,5 @@
 const Feed = () => {
-  const baseUrlArticles = "https://eggsy.xyz/blog"
+  const baseUrlArticles = "https://www.ridvantopakkaya.com/blog"
 
   const feedFormats = {
     rss: { type: "rss2", file: "rss.xml" },
@@ -10,9 +10,9 @@ const Feed = () => {
 
   const createFeedArticles = async function (feed: any) {
     feed.options = {
-      title: "EGGSY's Blog",
+      title: "rdvn Blog",
       description:
-        "EGGSY'nin günlük hayattan, tecrübelerinden bahsettiği, göstermek veya anlatmak istediği şeyleri daha düzenli ve profesyonel bir şekilde tuttuğu blog sayfası.",
+        "rdvn'nin günlük hayattan, tecrübelerinden bahsettiği, göstermek veya anlatmak istediği şeyleri daha düzenli ve profesyonel bir şekilde tuttuğu blog sayfası.",
       link: baseUrlArticles,
     }
 
@@ -23,7 +23,7 @@ const Feed = () => {
 
       const hostName =
         process.env.NODE_ENV === "production"
-          ? "https://eggsy.xyz"
+          ? "https://ridvantopakkaya.com"
           : "http://localhost:3000"
 
       const postImagesPath = `${hostName}/assets/images/posts`
