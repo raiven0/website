@@ -2,18 +2,18 @@
   "private": true,
   "license": "MIT",
   "version": "6.0.0",
-  "homepage": "https://eggsy.xyz",
+  "homepage": "https://www.ridvantopakkaya.com",
   "readme": "https://github.com/eggsy/website#readme",
   "engines": {
     "node": ">=16.9"
   },
   "author": {
-    "name": "Abdulbaki Dursun",
-    "email": "eggsydev@gmail.com",
-    "url": "https://eggsy.xyz"
+    "name": "Rıdvan Topakkaya",
+    "email": "info@ridvantopakkaya.com",
+    "url": "https://www.ridvantopakkaya.com"
   },
   "bugs": {
-    "email": "eggsydev@gmail.com",
+    "email": "info@ridvantopakkaya.com",
     "url": "https://github.com/eggsy/website/issues"
   },
   "repository": {
@@ -23,11 +23,11 @@
   "funding": [
     {
       "type": "individual",
-      "url": "https://eggsy.xyz/donate"
+      "url": "https://www.ridvantopakkaya.com/"
     },
     {
       "type": "github",
-      "url": "https://github.com/sponsors/eggsy"
+      "url": "https://github.com/sponsors/raiven0"
     }
   ],
   "scripts": {
