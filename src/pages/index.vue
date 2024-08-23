@@ -34,7 +34,7 @@ export default Vue.extend({
         education: false,
       },
       repos: [] as Repository[],
-      experiences: {
+      links: {
         jobs: [
           {
             title: "Voco Inc.",
@@ -172,7 +172,7 @@ export default Vue.extend({
 
       <div class="rounded-full mx-auto mb-4 md:mb-0">
         <SmartImage
-          src="/assets/images/profile-rdvn.png"
+          src="/assets/images/rt-logox100.png"
           class="rounded-full h-50 w-50"
         />
       </div>
@@ -208,10 +208,10 @@ export default Vue.extend({
       </div>
     </section>
 
-    <section id="experiences" class="grid gap-x-8 gap-y-24 md:grid-cols-2">
+    <section id="links" class="grid gap-x-8 gap-y-24 md:grid-cols-2">
       <div>
         <div class="flex items-center gap-4 justify-between">
-          <Title>Experience</Title>
+          <Title>Links</Title>
           <button
             type="button"
             class="text-black/50 text-sm hover:underline dark:text-white/30"
