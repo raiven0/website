@@ -87,7 +87,7 @@ const Head: NuxtOptionsHead = {
     {
       rel: "search",
       type: "application/opensearchdescription+xml",
-      title: "EGGSY's Blog",
+      title: "rdvn Blog",
       href: "/opensearch.xml",
     },
   ],
