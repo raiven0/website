@@ -34,7 +34,7 @@ export default Vue.extend({
         education: false,
       },
       repos: [] as Repository[],
-      links: {
+      experiences: {
         jobs: [
           {
             title: "Voco Inc.",
@@ -208,7 +208,7 @@ export default Vue.extend({
       </div>
     </section>
 
-    <section id="links" class="grid gap-x-8 gap-y-24 md:grid-cols-2">
+    <section id="experiences" class="grid gap-x-8 gap-y-24 md:grid-cols-2">
       <div>
         <div class="flex items-center gap-4 justify-between">
           <Title>Links</Title>
