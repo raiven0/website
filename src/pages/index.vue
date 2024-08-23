@@ -212,13 +212,6 @@ export default Vue.extend({
       <div>
         <div class="flex items-center gap-4 justify-between">
           <Title>Links</Title>
-          <button
-            type="button"
-            class="text-black/50 text-sm hover:underline dark:text-white/30"
-            @click="showExtra.jobs = !showExtra.jobs"
-          >
-            {{ showExtra.jobs ? "show less" : "show more" }}
-          </button>
         </div>
 
         <div class="mt-4 grid gap-2">
@@ -237,14 +230,6 @@ export default Vue.extend({
 
       <div>
         <div class="flex items-center gap-4 justify-between">
-          <Title>Education</Title>
-          <button
-            type="button"
-            class="text-black/50 text-sm hover:underline dark:text-white/30"
-            @click="showExtra.education = !showExtra.education"
-          >
-            {{ showExtra.education ? "show less" : "show more" }}
-          </button>
         </div>
 
         <div class="mt-4 grid gap-2">
