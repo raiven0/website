@@ -1,14 +1,14 @@
 export default {
   social: {
-    discord: "https://discord.gg/rpvNmR9cP9",
-    twitter: "https://twitter.com/eggsydev/",
-    github: "https://github.com/eggsy/",
-    linkedIn: "https://linkedin.com/in/abdulbaki-dursun",
-    instagram: "https://instagram.com/eggsy_dev/",
-    trello: "https://trello.com/b/XtWZFFiH/",
-    email: "eggsydev@gmail.com",
+    discord: "",
+    twitter: "https://x.com/rdvntpkky/",
+    github: "https://github.com/raiven0/",
+    linkedIn: "",
+    instagram: "https://instagram.com/rdvntpkky/",
+    trello: "",
+    email: "info@ridvantopakkaya.com",
   },
   sponsor: {
-    github: "https://github.com/sponsors/eggsy",
+    github: "",
   },
 }
